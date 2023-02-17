@@ -1,0 +1,87 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+.log-container {
+  display: flex;
+  align-items: center;
+}
+
+.img-class {
+  width: 25px;
+  height: 25px;
+  margin-right: 7px;
+}
+.header {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #12022f;
+}
+.list-container {
+  display: flex;
+  padding: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
